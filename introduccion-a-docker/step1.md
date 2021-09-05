@@ -11,7 +11,13 @@ FROM nginx:alpine
 COPY . /usr/share/nginx/html
 </pre>
 
+`docker build -t webserver-image:v1 .`{{execute}}
 
+`docker images`{{execute}}
+
+`docker run -d -p 80:80 webserver-image:v1`{{execute}}
+
+`curl docker`{{execute}}
 
 <pre class="file">
 "showvisualise": false,
