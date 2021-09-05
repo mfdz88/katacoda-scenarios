@@ -46,7 +46,7 @@
     }
   },
   "environment": {
-	"uieditorpath": "/root/example",
+	"uieditorpath": "/root/Docker",
     "uilayout": "editor-terminal"
   },
   "backend": {
