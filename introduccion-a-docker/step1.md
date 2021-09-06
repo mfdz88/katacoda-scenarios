@@ -12,7 +12,11 @@ FROM nginx:alpine
 COPY . /usr/share/nginx/html
 </pre>
 
-`docker build -t webserver-image:v1 .`{{execute}}
+<pre class="file" data-filename="Dockerfile.dockerfile " data-target="replace">
+ <h2>Hola mundo! - Marcelo<h2>
+</pre>
+
+`docker build -f Docker/Dockerfile.dockerfile -t  webserver-image:v1 .`{{execute}}
 
 `docker images`{{execute}}
 
