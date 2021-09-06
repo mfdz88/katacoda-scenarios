@@ -12,7 +12,7 @@ FROM nginx:alpine
 COPY . /usr/share/nginx/html
 </pre>
 
-<pre class="file" data-filename="Dockerfile.dockerfile " data-target="replace">
+<pre class="file" data-filename="index.html " data-target="replace">
  <h2>Hola mundo! - Marcelo<h2>
 </pre>
 
