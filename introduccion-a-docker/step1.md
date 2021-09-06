@@ -7,13 +7,13 @@ El Dockerfile es una lista de instrucciones que describen cómo implementar su a
 En este ejemplo, nuestra imagen base es la versión Alpine de Nginx. Esto proporciona el servidor web configurado en la distribución de Linux Alpine.
 
 
-<pre class="file" data-filename="Dockerfile.dockerfile " data-target="replace">
+<pre class="file" data-filename="Dockerfile.dockerfile" data-target="replace">
 FROM nginx:alpine
 COPY . /usr/share/nginx/html
 </pre>
 
-<pre class="file" data-filename="index.html " data-target="replace">
- <h2>Hola mundo! - Marcelo<h2>
+<pre class="file" data-filename="index.html" data-target="replace">
+ <h2>Hola mundo! - Marcelo</h2>
 </pre>
 
 `docker build -f Docker/Dockerfile.dockerfile -t  webserver-image:v1 .`{{execute}}
