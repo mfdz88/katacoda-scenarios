@@ -9,7 +9,7 @@ En este ejemplo, nuestra imagen base es la versión Alpine de Nginx. Esto propor
 
 <pre class="file" data-filename="Dockerfile.dockerfile" data-target="replace">
 FROM nginx:alpine
-COPY . /usr/share/nginx/html
+COPY /Docker/index.html /usr/share/nginx/html
 </pre>
 
 <pre class="file" data-filename="index.html" data-target="replace">
@@ -21,11 +21,3 @@ COPY . /usr/share/nginx/html
 `docker images`{{execute}}
 
 `docker run -d -p 80:80 webserver-image:v1`{{execute}}
-
-`curl docker`{{execute}}
-
-<pre class="file">
-"showvisualise": false,
-"scope": "docker run --name=scope -d --net=host --pid=host --privileged -v /var/run/docker.sock:/var/run/docker.sock:rw weaveworks/scope:1.9.1 --probe.docker=true",
-"scopePort": 4040,
-</pre>
