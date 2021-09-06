@@ -1,8 +1,8 @@
 {
   "title": "Introduccion a Docker",
-  "description": "Conocer el funcionineto basico y fundamentos de docker a traves de un ejemplo",
+  "description": "Conocer el funcionineto basico y los fundamentos de docker a traves de un ejemplo",
   "difficulty": "Beginner",
-  "time": "60",
+  "time": "30",
   "details": {
     "steps": [
       {
@@ -10,7 +10,7 @@
         "text": "step1.md"
       },
       {
-        "title": "Fundamentos",
+        "title":"Fundamentos",
         "text": "step2.md"
       },
       {
@@ -30,7 +30,7 @@
         "text": "step6.md"
       },
       {
-        "title": "Comando utiles",
+        "title": "Comandos utiles",
         "text": "step7.md"
       },
       {
