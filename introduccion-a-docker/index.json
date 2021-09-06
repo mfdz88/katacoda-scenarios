@@ -6,35 +6,35 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Breve historia",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Fundamentos",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Arquitectura basica",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Creando una imagen",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Creando un contenedor",
         "text": "step5.md"
       },
       {
-        "title": "Step 6",
+        "title": "Visualizando el resultado",
         "text": "step6.md"
       },
       {
-        "title": "Step 7",
+        "title": "Comando utiles,
         "text": "step7.md"
       },
       {
-        "title": "Step 8",
+        "title": "Alcance",
         "text": "step8.md"
       }
     ],
