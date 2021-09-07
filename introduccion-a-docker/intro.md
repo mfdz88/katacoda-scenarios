@@ -1,6 +1,8 @@
-Docker es uan herramienta muy utilizada en la actualidad
+Docker es una herramienta muy utilizada en la actualidad con la cual se 
+pueden solventar diversos problemas que surgen como parte de la entrega de software entre ambientes.
 
-‘Es una pieza de software liviana, independiente, empaquetable y ejecutable que incluye todo lo que necesita para correr: código, runtime, herramientas de sistema, librerías y configuraciones’ traducido de la página oficial de docker, 
+
+
 
 
 
