@@ -11,6 +11,8 @@ ya que nuestra aplicación se ejecutará en el contenedor,.
 
 Docker  permite ejecutar contenedores. Un contenedor es un proceso de espacio aislado que ejecuta una aplicación y sus dependencias en el sistema operativo host. La aplicación dentro del contenedor se considera a sí misma como el único proceso que se ejecuta en la máquina, mientras que la máquina puede ejecutar varios contenedores de forma independiente.
 
+‘Es una pieza de software liviana, independiente, empaquetable y ejecutable que incluye todo lo que necesita para correr: código, runtime, herramientas de sistema, librerías y configuraciones’ traducido de la página oficial de docker, 
+
 Las principales características de Docker son:
 • Portabilidad: el contenedor Docker podemos desplegarlo en cualquier sistema, sin
 necesidad de volver a configurarlo o realizar las instalaciones necesarias para que la
