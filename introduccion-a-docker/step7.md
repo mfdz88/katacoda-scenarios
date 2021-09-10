@@ -11,7 +11,6 @@ debemos mapear los puertos usando la opción -p en docker run.
 Por ejemplo:
 EXPOSE 80 443
 docker run centos:centos7 -p 8080:80
-53
 
 <b>ENTRYPOINT</b>
 Cualquier argumento que pasemos en la línea de comandos mediante docker run serán

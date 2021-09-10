@@ -1,7 +1,1 @@
 Docker nace como parte de la tecnología Linux para solventar la necesidad de tener un espacio aislado y controlado (tipo Sanbox) para la ejecución de procesos y con el tiempo se fueron añadiendo mas características hasta tener la tecnología de hoy en día. Actualmente un contenedore Docker permite a desarrolladores y administradores de sistemas probar aplicaciones o servicios en un entorno seguro e igual al de producción, reduciendo los tiempos de pruebas y adaptaciones entre los entornos de prueba y producción.
-
-
-
-
-
-

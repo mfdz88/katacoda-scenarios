@@ -14,7 +14,7 @@ Github o BitBucket.
 
 Para que dos contenedores colaboren entre ellos podemos abrir puertos y que se comuniquen
 por ahí, pero Docker nos ofrece la posibilidad de crear links entre contenedores
-
+</br>
 <h4>VOLÚMENES</h4>
 
 Podemos montar volúmenes de datos en nuestros contenedores. Con el flag -v podemos
@@ -27,7 +27,7 @@ el contenedor.
 
 <h4>CONFIGURACIÓN DE RED</h4>
 Por defecto los contenedores tienen las conexiones de redes habilitadas.
-
+</br>
 
 <h4>KUBERNETES</h4>
 
