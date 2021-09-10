@@ -1,7 +1,7 @@
-<h4> ¿Que es un contenedor? </h4> 
 
-"Es una pieza de software liviana, independiente, empaquetable y ejecutable que incluye todo lo que necesita para correr:
-código, runtime, herramientas de sistema, librerías y configuraciones"(Documentacion Ofidiclal de docker, 2021)
+Un contenedor segun la documentacion oficial de docker es : "Es una pieza de software liviana, independiente, empaquetable 
+y ejecutable que incluye todo lo que necesita para corrercódigo, runtime, herramientas de sistema, librerías y 
+configuraciones"(Documentacion Ofidiclal de docker, 2021)
 
 En otras palabras, un contenedor es una pieza de software que puede ejecutarse sin necesidad de nada adicional.
 
