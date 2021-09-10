@@ -18,6 +18,7 @@ ejecuta nuestra aplicación.
 <h4>Componentes</h4>
 
 Según la documentación oficial, Docker tiene dos principales componentes:
+
 • Docker
 Plataforma open source de virtualización con contenedores.
 • Docker Hub
