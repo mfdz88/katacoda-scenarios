@@ -1,7 +1,7 @@
 {
   "title": "Introduccion a Docker",
   "description": "Conocer los fundamentos y el el funcionamiento basico de docker a traves de un ejemplo",
-  "difficulty": "Beginner",
+  "difficulty": "Intermedio",
   "time": "30",
   "details": {
     "steps": [
