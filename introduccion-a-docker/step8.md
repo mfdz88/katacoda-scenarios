@@ -1,4 +1,4 @@
-Alguno de los temas que pueden seguir a este taller son los sigueintes: 
+Alguno de los temas que pueden seguir a este taller son los siguientes: 
 
 <h4>DOCKERHUB</h4>
 sirve como repositorio de
