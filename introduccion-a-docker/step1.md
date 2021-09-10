@@ -12,7 +12,7 @@ imágenes en contenedores prediseñadas y el concepto de un servidor de registro
 diseñaran rápidamente nuevos contenedores en capas y los compartieran con otros sin ninguna dificultad. En marzo de 2013 fué liberado 
 Docker como código abierto.
 
-<h4>Diferencias entre contenedor y virtualizacion</h4>
+<h4>Diferencias entre contenedor y virtualización</h4>
 
 "Las máquinas virtuales (VM) y los contenedores de Linux son entornos informáticos empaquetados que combinan varios elementos de TI y los 
 aíslan del resto del sistema. Las principales diferencias radican en la capacidad de ampliación y la portabilidad." (redhat.com,2021)
