@@ -26,7 +26,7 @@ están anclados al sistema operativo anfitrión, no serán eliminados por Docker
 el contenedor.
 
 <h4>CONFIGURACIÓN DE RED</h4>
-Por defecto los contenedores tienen las conexiones de redes habilitadas
+Por defecto los contenedores tienen las conexiones de redes habilitadas.
 
 
 <h4>KUBERNETES</h4>
