@@ -20,6 +20,7 @@ Según la documentación oficial, Docker tiene dos principales componentes:
 
 • Docker:
 Plataforma open source de virtualización con contenedores.
+
 • Docker Hub:
 Plataforma de Software como servicio (SaaS, Software-as-a-Service) para compartir y
 administrar contenedores Docker.
