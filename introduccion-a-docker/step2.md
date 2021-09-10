@@ -1,4 +1,4 @@
-Como se ha mencionado anterior mente, Docker es un proyecto de código abierto que permite automatizar el 
+Como se ha mencionado anteriormente, Docker es un proyecto de código abierto que permite automatizar el 
 despliegue de aplicaciones dentro de “contenedores”. Un  contenedor empaqueta todo lo necesario para que 
 uno o más procesos (servicios o aplicaciones) funcionen: código, herramientas del sistema, bibliotecas 
 del sistema, dependencias,etc. Ésto garantiza que siempre se podrá ejecutar, independientemente del entorno 
