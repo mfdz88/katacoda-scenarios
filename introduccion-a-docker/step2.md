@@ -6,16 +6,14 @@ en el que queramos desplegarlo. No hay que preocuparse de qué software ni versi
 ya que nuestra aplicación se ejecutará en el contenedor.
 
 
-<h3>¿Que es docker ?</h3>
+<h4>¿Que es docker ?</h4>
 
 Docker  permite ejecutar contenedores. Un contenedor es un proceso de espacio aislado que ejecuta una 
 aplicación y sus dependencias en el sistema operativo host. La aplicación dentro del contenedor se 
 considera a sí misma como el único proceso que se ejecuta en la máquina, mientras que la máquina puede 
 ejecutar varios contenedores de forma independiente.
 
-"Es una pieza de software liviana, independiente, empaquetable y ejecutable que incluye todo lo que 
-necesita para correr: código, runtime, herramientas de sistema, librerías y configuraciones"(.docker.com,2021)
-
+<h4>Caracteristicas: </h4>
 Las principales características de Docker son:
 
 • Portabilidad: el contenedor Docker podemos desplegarlo en cualquier sistema, sin
@@ -34,4 +32,5 @@ Si escribimos “docker version” en la línea de comandos, nos da la versión 
 servidor, además de la versión de la API y de Go (lenguaje de programación en el que está escrito
 Docker).
 
+Conocer la version de docker instalada:
 `docker version`{{execute}}

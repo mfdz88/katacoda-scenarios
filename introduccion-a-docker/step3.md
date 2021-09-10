@@ -1,3 +1,5 @@
+<h4>Arquitectura</h4>
+
 Docker usa una arquitectura cliente-servidor. El cliente de Docker habla con el demonio de
 Docker que hace el trabajo de crear, correr y distribuir los contenedores. Ambos pueden ejecutarse
 en el mismo sistema, o se puede conectar un cliente a un demonio Docker remoto. El cliente Docker
@@ -13,8 +15,8 @@ estar en local o en el Docker Registry.
 Cada contenedor se crea a partir de una imagen y es un entorno aislado y seguro dónde se
 ejecuta nuestra aplicación.
 
+<h4>Componentes</h4>
 
-COMPONENTES
 Según la documentación oficial, Docker tiene dos principales componentes:
 • Docker
 Plataforma open source de virtualización con contenedores.

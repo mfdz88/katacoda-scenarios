@@ -1,4 +1,6 @@
-DOCKERHUB
+Alguno de los temas que pueden seguir a este taller son los sigueintes: 
+
+<h4>DOCKERHUB</h4>
 sirve como repositorio de
 imágenes oficiales y de terceros.
 Las características de Docker Hub son:
@@ -7,12 +9,13 @@ comunidad.
 • Imágenes automáticas: crea nuevas imágenes cuando haces un cambio en la fuente de
 Github o BitBucket.
 
-LINKS
+<h4>LINKS</h4>
+
 Para que dos contenedores colaboren entre ellos podemos abrir puertos y que se comuniquen
 por ahí, pero Docker nos ofrece la posibilidad de crear links entre contenedores
 
+<h4>VOLÚMENES</h4>
 
-VOLÚMENES
 Podemos montar volúmenes de datos en nuestros contenedores. Con el flag -v podemos
 montar un directorio dentro de nuestro contenedor. Así podemos incorporar datos que estarían
 disponibles para nuestro contenedor. Además seguirá apareciendo después de un reinicio del
@@ -21,11 +24,12 @@ También podemos compartir volúmenes de datos entre contenedores. Si dichos vol
 están anclados al sistema operativo anfitrión, no serán eliminados por Docker cuando desaparezca
 el contenedor.
 
-CONFIGURACIÓN DE RED
+<h4>CONFIGURACIÓN DE RED</h4>
 Por defecto los contenedores tienen las conexiones de redes habilitadas
 
 
-KUBERNETES
+<h4>KUBERNETES</h4>
+
 Es un proyecto open source de Google para la gestión de aplicaciones en contenedores, en
 especial los contenedores Docker, permitiendo programar el despliegue, escalado, monitorización
 de los contenedores, etc.

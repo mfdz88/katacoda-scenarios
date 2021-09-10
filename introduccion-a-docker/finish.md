@@ -1,2 +1,2 @@
 
-Gracias por su atencion!
+Gracias por su participación!

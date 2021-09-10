@@ -1,4 +1,4 @@
-<h2> ¿Que es un contenedor? </h2> 
+<h4> ¿Que es un contenedor? </h4> 
 
 "Es una pieza de software liviana, independiente, empaquetable y ejecutable que incluye todo lo que necesita para correr:
 código, runtime, herramientas de sistema, librerías y configuraciones"(Documentacion Ofidiclal de docker, 2021)
@@ -12,6 +12,11 @@ Entre las opciones se encuentran (lista completa aquí):
 -i, --interactive: habilita el modo interactivo.
 --name: le pone nombre a un contenedor.
 
+<h4>Creacion del contendor</h4>
+
+Como vimos anteriormente un contenedor es la instancias de una imagen, para crear un contendor apartir de una imagen:
+
 `docker run -d -p 80:80 webserver-image:v1`{{execute}}
 
+Consultar contenedores diponibles: 
 `docker ps`{{execute}}

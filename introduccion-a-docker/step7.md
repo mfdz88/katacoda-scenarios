@@ -1,9 +1,9 @@
+Akguno de los comandos utiles y mas utilizados en docker son los siguientes: 
 
-WORKDIR
-Permite especificar en qué directorio se va a ejecutar una instrucción RUN, CMD o
-ENTRYPOINT.
+<b>WORKDIR</b>
+Permite especificar en qué directorio se va a ejecutar una instrucción RUN, CMD o ENTRYPOINT.
 
-EXPOSE
+<b>EXPOSE</b>
 Se utiliza para asociar puertos, permitiéndonos exponer un contenedor al exterior (internet,
 host,etc.). Esta instrucción le especifica a Docker que el contenedor escucha en los puertos
 especificados. Pero EXPOSE no hace que los puertos puedan ser accedidos desde el host, para esto
@@ -13,7 +13,7 @@ EXPOSE 80 443
 docker run centos:centos7 -p 8080:80
 53
 
-ENTRYPOINT
+<b>ENTRYPOINT</b>
 Cualquier argumento que pasemos en la línea de comandos mediante docker run serán
 anexados después de todos los elementos especificados mediante la isntrucción ENTRYPOINT, y
 anulará cualquier elemento especificado con CMD. Esto permite pasar cualquier argumento al

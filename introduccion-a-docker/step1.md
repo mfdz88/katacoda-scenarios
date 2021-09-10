@@ -12,7 +12,7 @@ imágenes en contenedores prediseñadas y el concepto de un servidor de registro
 diseñaran rápidamente nuevos contenedores en capas y los compartieran con otros sin ninguna dificultad. En marzo de 2013 fué liberado 
 Docker como código abierto.
 
-<h3>Diferencias entre contenedor y virtualizacion</h3>
+<h4>Diferencias entre contenedor y virtualizacion</h4>
 
 "Las máquinas virtuales (VM) y los contenedores de Linux son entornos informáticos empaquetados que combinan varios elementos de TI y los 
 aíslan del resto del sistema. Las principales diferencias radican en la capacidad de ampliación y la portabilidad." (redhat.com,2021)
@@ -33,7 +33,8 @@ El software llamado hipervisor separa los recursos de las máquinas físicas par
 <h4>Contenedores</h4>
 
 Los contenedores contienen un microservicio o una aplicación y todo lo que necesita para ejecutarse. Lo que está dentro de un contenedor se conserva en lo que llamamos imagen: un archivo basado en un código que incluye todas las bibliotecas y las dependencias. Estos archivos pueden considerarse una instalación de la distribución de Linux, porque la imagen viene con paquetes RPM y archivos de configuración. Como los contenedores son tan pequeños, suele haber cientos de ellos con un nivel de acoplamiento bajo, así que se utilizan plataformas de organización de contenedores (como Red Hat OpenShift y Kubernetes) para configurarlos y gestionarlos.
-	
+
+Video sugerido:
 https://youtu.be/ZQlQumDZ0Zw
 
 Referencias : 
